@@ -1,0 +1,61 @@
+.navbar, .navbar-left, .navbar-right, .navbar-left-menu{
+    display: flex;
+    background: transparent;
+}
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 7rem;
+}
+
+.navbar-logo{
+    margin-right: 1.5rem;
+}
+
+.navbar-left{
+    /* width: 25%; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-right{
+    width: 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left-menu{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left-menu > a{
+    color: var(--primary-blue);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-left-menu > a:first-of-type{
+    margin-right: 2.5rem;
+}
+
+.sign-up-btn, .sign-in-btn{
+    width: 6rem;
+    height: 3rem;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sign-up-btn{
+    background: transparent;
+    color: var(--primary-grey);
+}
+
+.sign-in-btn{
+   background: var(--secondary-blue);
+   color: var(--primary-white);
+   border-radius: 4px;
+}

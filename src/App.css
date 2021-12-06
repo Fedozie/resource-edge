@@ -1,0 +1,17 @@
+:root{
+    /*COLOUR VARIABLES*/
+    --primary-white: #FFFFFF;
+    --secondary-blue: #0052CC;
+    --primary-grey: #A5ADBA;
+    --primary-blue: #091E42;
+
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
