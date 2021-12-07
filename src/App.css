@@ -4,7 +4,7 @@
     --secondary-blue: #0052CC;
     --primary-grey: #A5ADBA;
     --primary-blue: #091E42;
-
+    --primary-blue-light: #344563;
 }
 
 html{
@@ -14,4 +14,8 @@ html{
 
 *, *::before, *::after{
     box-sizing: inherit;
+}
+
+body{
+    padding: 0 7rem;
 }

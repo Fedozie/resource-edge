@@ -1,0 +1,25 @@
+.homepage{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-left > p:first-of-type{
+    color: var(--primary-blue);
+    font-weight: 700;
+    line-height: 57.6px;
+    font-size: 48px;
+}
+
+.homepage-left > p:last-of-type{
+    color: var(--primary-blue-light);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.homepage-right-image{
+    width: 723.97px;
+    height: 440.81px;
+}

@@ -2,14 +2,18 @@ import React from 'react';
 import './Navbar.css';
 import logo from '../Assets/Logo.svg';
 
+//Component for the Navbar section of the Landing Page
+
 const Header = () => {
+    const link = '#';
+
     return (
         <header className = "navbar">
             <div className = "navbar-left">
                 <img src={logo} alt="logo" className = "navbar-logo"/>
                 <div className = "navbar-left-menu">
-                    <a href="#">Features</a>
-                    <a href="#">About</a>
+                    <a href={link}>Features</a>
+                    <a href={link}>About</a>
                 </div>
             </div>
             <div className = "navbar-right">
