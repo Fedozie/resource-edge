@@ -5,6 +5,8 @@
     --primary-grey: #A5ADBA;
     --primary-blue: #091E42;
     --primary-blue-light: #344563;
+    --grey-background: #F4F5F7;
+    --secondary-grey: #5E6C84;
 }
 
 html{
@@ -17,5 +19,4 @@ html{
 }
 
 body{
-    padding: 0 7rem;
 }

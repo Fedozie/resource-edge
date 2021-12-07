@@ -16,7 +16,7 @@ const HomePage = () => {
                 </p>
             </div>
             <div className="homepage-right">
-                <img src={mainPageImage} alt="" className="homepage-right-image"/>
+                <img src={mainPageImage} alt="Homepage JPEG" className="homepage-right-image"/>
             </div>
         </div>
     );

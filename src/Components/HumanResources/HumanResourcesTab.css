@@ -1,0 +1,21 @@
+.tab{
+    background: var(--primary-white);
+    border-radius: 16px;
+    width: 24rem;
+    height: 20rem;
+    padding: 2.5rem;
+}
+
+.tab > p:first-of-type{
+    color: var(--primary-blue);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.tab > p:last-of-type{
+    color: var(--secondary-grey);
+    font-size: .85rem;
+    font-weight: 450;
+    line-height: 20px;
+}

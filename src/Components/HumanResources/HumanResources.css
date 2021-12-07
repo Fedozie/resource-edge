@@ -1,0 +1,37 @@
+.human-resources{
+    background: var(--grey-background);
+    padding: 4rem 7rem;
+}
+
+.human-resources-text{
+    width: 45%;
+}
+
+.human-resources-text > h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.human-resources-text > p{
+    color: var(--secondary-grey);
+    font-size: 1.2rem;
+    font-weight: 450;
+    line-height: 24px;
+}
+
+.human-resources-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.human-resources-details > *:nth-child(2){
+    box-shadow: 0px 18px 31px 0px rgba(9, 30, 66, 0.06);
+}
+
+.human-resources-image{
+    box-shadow: -28px 46px 60px rgba(9, 30, 66, 0.08);
+    margin: 6rem;
+}
