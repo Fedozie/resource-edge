@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar/Navbar';
 import HomePage from './Components/HomePage/HomePage';
 import HumanResources from './Components/HumanResources/HumanResources';
 import DuoSection from './Components/DuoSection/DuoSection';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <HomePage/>
       <HumanResources/>
       <DuoSection/>
+      <Footer/>
     </div>
   );
 }

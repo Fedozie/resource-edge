@@ -1,0 +1,22 @@
+.footer{
+    background: var(--primary-blue);
+    padding: 4rem 7rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left > p, .footer-right > p{
+    color: var(--secondary-white);
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icon:not(:last-of-type){
+    margin-right: 1rem;
+}

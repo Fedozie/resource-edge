@@ -1,3 +1,8 @@
+@font-face{
+    src: url(./Components/Assets/Circular\ Std\ Medium\ 500.ttf);
+    font-family: Circular Std;
+}
+
 :root{
     /*COLOUR VARIABLES*/
     --primary-white: #FFFFFF;
@@ -7,6 +12,7 @@
     --primary-blue-light: #344563;
     --grey-background: #F4F5F7;
     --secondary-grey: #5E6C84;
+    --secondary-white: #FAFBFC;
 }
 
 html{
@@ -20,4 +26,8 @@ html{
 
 body{
     scroll-behavior: smooth;
+    font-family: 'Circular Std', -apple-system;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
