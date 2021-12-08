@@ -1,5 +1,9 @@
 .section{
+    padding: 7rem 7rem;
     background-color: var(--primary-white);
+    background-image: url(../Assets/rectangle-1.svg), url(../Assets/rectangle-2.svg), url(../Assets/rectangle-3.svg), url(../Assets/rectangle-4.svg), url(../Assets/rectangle-5.svg), url(../Assets/rectangle-6.svg);
+    background-position: top 20% right, right center, right bottom 50%, left bottom, left -3% bottom -35%, left -11% bottom -40%;
+    background-repeat: no-repeat;
 }
 
 .section-main{
