@@ -1,32 +1,32 @@
-import React from 'react';
+import './Reset.css';
 import {useState} from 'react';
-import { NavLink } from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import logoLogin from '../Assets/login-logo.svg';
-import './LogIn.css';
 
-const LogIn = () => {
+
+const Reset = () => {
     const link = '#';
     const [email, setEmail] = useState('');
 
     return (
         <div className="authentication-bg">
-            <div className = "authentication-logo">
+             <div className = "authentication-logo">
                 <img src={logoLogin} alt=""/>
             </div>
-            <form className = "form">
+            <form className="form">
                 <div className="form-text">
-                    <p>Log in</p>
-                    <p>Access your resource edge account</p>
+                    <p>Reset Password</p>
+                    <p>To enable us reset your password, enter your email below</p>
                 </div>
                 <div className="form-input">
                     <label htmlFor="email">Email Address</label>
-                    <input type="email" name="email" id="email" placeholder = "Enter email" value = {email} onChange = {(e) => setEmail(e.target.value) }/>
+                    <input type="email" name="email" id="email" placeholder = "Enter email" value = {email} onChange = {(e) => setEmail(e.target.value)}/>
                 </div>
                 <div className = "loadingDiv"></div>
                 <hr/>
                 <div className = "password-forget">
-                    <NavLink to = "/forget-password">
-                        <a href = {link}>Forgot Password?</a>
+                    <NavLink to = "/signin">
+                        <a href = {link}>Back to Login</a>
                     </NavLink>      
                 </div>
             </form>
@@ -34,4 +34,4 @@ const LogIn = () => {
     );
 }
  
-export default LogIn;
+export default Reset;

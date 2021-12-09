@@ -1,4 +1,5 @@
 import React from 'react';
+import {  NavLink } from "react-router-dom";
 import './Navbar.css';
 import logo from '../Assets/Logo.svg';
 
@@ -18,7 +19,9 @@ const Header = () => {
             </div>
             <div className = "navbar-right">
                 <button className = "sign-up-btn">Sign up</button>
-                <button className = "sign-in-btn">Sign in</button>
+                <NavLink to="/signin">
+                    <button className = "sign-in-btn">Sign in</button>
+                </NavLink>
             </div>
         </header>
     );

@@ -1,16 +1,20 @@
 
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
 import LandingPage from './Pages/LandingPage';
 import AuthenticationPage from './Pages/AuthenticationPage';
+import PasswordResetPage from './Pages/PasswordResetPage';
 import Dashboard from './Pages/Dashboard';
+
 
 function App() {
   return (
-    <div className="App">
-      {/* <LandingPage/> */}
-      {/* <AuthenticationPage/> */}
-      <Dashboard/>
-    </div>
+    <Routes>
+      <Route path="/" element={ <LandingPage/>} exact />
+      <Route path="/signin" element={ <AuthenticationPage/>} />
+      <Route path="/forget-password" element={ <PasswordResetPage/>} />
+      <Route path="/dashboard" element={ <Dashboard/>} />
+    </Routes>
   );
 }
 
