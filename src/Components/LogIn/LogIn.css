@@ -1,0 +1,18 @@
+.login-bg{
+    height: 100vh;
+    background: var(--secondary-white);
+    background-image: url('../Assets/left-illustration.svg'), url('../Assets/right-illustration.svg');
+    background-position: bottom left, bottom right;
+    background-repeat: no-repeat;
+}
+
+.login-logo{
+    width: auto;
+    text-align: center;
+}
+
+.form{
+    border: 1px solid green;
+    margin: 0 auto;
+    width: 40vw;
+}
