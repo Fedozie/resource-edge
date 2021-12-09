@@ -1,8 +1,12 @@
 import React from 'react';
+import {useState} from 'react';
 import logoLogin from '../Assets/login-logo.svg';
 import './LogIn.css';
 
 const LogIn = () => {
+    const link = '#';
+    const [email, setEmail] = useState('')
+
     return (
         <div className="login-bg">
             <div className = "login-logo">
@@ -13,13 +17,16 @@ const LogIn = () => {
                     <p>Log in</p>
                     <p>Access your resource edge account</p>
                 </div>
-                <div className="form-inputs">
+                <div className="form-input">
                     <label htmlFor="email">Email Address</label>
-                    <input type="email" name="email" id=""/>
+                    <input type="email" name="email" id="email" placeholder = "Enter email" value = {email} onChange = {(e) => setEmail(e.target.value) }/>
                 </div>
-                <div></div>
-                    <hr/>
-                    <p>Forgot Password</p>
+                <div className = "loadingDiv"></div>
+                <hr/>
+                <div className = "password-forget">
+                    <a href = {link}>Forgot Password?</a>
+                </div>
+                
             </form>
         </div>
     );
