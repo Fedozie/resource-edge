@@ -1,15 +1,26 @@
 import './Reset.css';
 import {useState} from 'react';
-import {NavLink} from "react-router-dom";
+import {NavLink} from 'react-router-dom';
+import validator from 'validator';
 import logoLogin from '../Assets/login-logo.svg';
 
 
 const Reset = () => {
     const link = '#';
-    const [email, setEmail] = useState('');
+
+    const [emailValidation, setEmailValidation] = useState('');
+    const validateEmail = (e) => {
+        let address = e.target.value;
+
+        if(validator.isEmail(address)){
+            setEmailValidation(``)
+        }else{
+            setEmailValidation(``)
+        }
+    }
 
     return (
-        <div className="authentication-bg">
+        <div className="authentication-bg reset">
              <div className = "authentication-logo">
                 <img src={logoLogin} alt=""/>
             </div>
@@ -20,7 +31,7 @@ const Reset = () => {
                 </div>
                 <div className="form-input">
                     <label htmlFor="email">Email Address</label>
-                    <input type="email" name="email" id="email" placeholder = "Enter email" value = {email} onChange = {(e) => setEmail(e.target.value)}/>
+                    <input type="email" name="email" id="email" placeholder = "Enter email" />
                 </div>
                 <div className = "loadingDiv"></div>
                 <hr/>

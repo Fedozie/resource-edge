@@ -1,0 +1,16 @@
+.success-form > .form-text{
+    color: var(--primary-blue);
+}
+
+.check, .success-form-text{
+    text-align: center;
+}
+
+.success-form-text{
+    color: var(--primary-blue);
+    
+}
+
+.success-form > .form-text, .check, .success-form-text{
+    margin-bottom: 3rem;
+}
