@@ -20,3 +20,45 @@
 .icon:not(:last-of-type){
     margin-right: 1rem;
 }
+
+@media only screen and (max-width: 26.5625rem){
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 3.5rem;
+    }
+
+    .footer-left > img{
+        width: 70%;
+    }
+
+    .footer-left > p{
+        font-size: 16px;
+        line-height: 23.2px;
+        margin-top: .5rem;
+        text-align: center;
+    }
+
+    .footer-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .icon:not(:last-of-type){
+        margin-right: 1.5rem;
+    }
+
+    .footer-right > p{
+        margin-top: 2rem;
+        font-size: 12px;
+        text-align: center;
+    }
+}

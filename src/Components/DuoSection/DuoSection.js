@@ -8,6 +8,12 @@ import travelLogisticsSectionImage from '../Assets/travel-logistics-image.svg';
 import reVouchers from '../Assets/re-vouchers.svg';
 import payroll from '../Assets/payroll.svg';
 import financeSectionImage from '../Assets/finance-section-image.svg';
+import AdminLogisticsImg from '../Assets/Admin-Logistics.svg';
+import financeMobileImg from '../Assets/finance.svg';
+import voucherMobile from '../Assets/voucherMobile.svg';
+import payrollMobile from '../Assets/payrollMobile.svg';
+import briefcaseMobile from '../Assets/briefcaseMobile.svg';
+import travelMobile from '../Assets/travelMobile.svg';
 
 
 const DuoSection = () => {
@@ -24,7 +30,10 @@ const DuoSection = () => {
             descriptionTitleTwo: 'Asset Management',
             descriptionTextTwo: 'Manage the acquisition, assignment, and disposition of assets seamlessly.',
             image: travelLogisticsSectionImage,
-            altText: 'Admin & Logistics Section Image'
+            altText: 'Admin & Logistics Section Image',
+            mobileImg: AdminLogisticsImg,
+            descritptionImgOne: briefcaseMobile,
+            descriptionImgTwo: travelMobile
         },
         {
             mainTitle: 'Finance',
@@ -38,7 +47,10 @@ const DuoSection = () => {
             descriptionTitleTwo: 'Payroll',
             descriptionTextTwo: 'Our easy to use systems takes away the pain of managing complex payrolls for organisations of all sizes.',
             image: financeSectionImage,
-            altText: 'Finance Section Image'
+            altText: 'Finance Section Image',
+            mobileImg: financeMobileImg,
+            descritptionImgOne: voucherMobile,
+            descriptionImgTwo: payrollMobile
         }
     ];
 
@@ -57,6 +69,7 @@ const DuoSection = () => {
                 descriptionTextTwo = {properties[0].descriptionTextTwo}
                 image = {properties[0].image}
                 altText = {properties[0].altText}
+                mobileImg = {properties[0].mobileImg}
             />
             <SoloSection
                 mainTitle = {properties[1].mainTitle}
@@ -71,6 +84,7 @@ const DuoSection = () => {
                 descriptionTextTwo = {properties[1].descriptionTextTwo}
                 image = {properties[1].image}
                 altText = {properties[1].altText}
+                mobileImg = {properties[1].mobileImg}
             />
             <Sponsors/>
         </div>

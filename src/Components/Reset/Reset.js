@@ -33,7 +33,13 @@ const Reset = () => {
                     <label htmlFor="email">Email Address</label>
                     <input type="email" name="email" id="email" placeholder = "Enter email" />
                 </div>
-                <div className = "loadingDiv"></div>
+                <div className = "loadingDiv">
+                    <NavLink to = "/reset-success">
+                        <button>
+                            <a href={link}>Next</a>
+                        </button>
+                    </NavLink>
+                </div>
                 <hr/>
                 <div className = "password-forget">
                     <NavLink to = "/signin">

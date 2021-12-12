@@ -19,3 +19,23 @@
     font-weight: 450;
     line-height: 20px;
 }
+
+@media only screen and (max-width: 26.5625rem){
+    .tab{
+        width: 100%;
+        margin-bottom: 1rem;
+        height: auto;
+    }
+
+    .tab > p{
+        margin: 0;
+    }
+
+    .tab > p:first-of-type{
+        margin-top: 1.5rem;
+    }
+
+    .tab > p:last-of-type{
+        font-size: 14px;
+    }
+}

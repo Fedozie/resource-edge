@@ -1,0 +1,35 @@
+.error #email{
+    border-color: #DE350B;
+    outline-color: #DE350B;
+}
+
+.error .form-input{
+    margin: 0;
+}
+
+.error-message{
+    color: #DE350B;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.error-message > img{
+    margin-right: 5px;
+}
+
+.error .loadingDiv{
+    background: var(--secondary-blue);
+}
+
+.loadingDiv > button{
+    background: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.loadingDiv > button a{
+    text-decoration: none;
+    color: var(--primary-white);
+    font-weight: 700;
+}

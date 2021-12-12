@@ -1,6 +1,7 @@
 import React from 'react';
 import './HomePage.css';
 import mainPageImage from '../Assets/main-page-image.svg';
+import mobileImage from '../Assets/mobileImg.svg';
 
 //Component for the first page of the Landing Page
 
@@ -16,7 +17,11 @@ const HomePage = () => {
                 </p>
             </div>
             <div className="homepage-right">
-                <img src={mainPageImage} alt="Homepage JPEG" className="homepage-right-image"/>
+                <picture>
+                    <source srcset={mobileImage} media = "(max-width: 26.5625rem)"/>
+                    <img src={mainPageImage} alt="Homepage JPEG" className="homepage-right-image"/>
+                </picture>
+                
             </div>
         </div>
     );

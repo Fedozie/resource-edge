@@ -8,7 +8,7 @@ const ResetSuccess = () => {
 
     return (
         <div className="authentication-bg">
-             <div className = "authentication-logo">
+            <div className = "authentication-logo">
                 <img src={logoLogin} alt=""/>
             </div>
             <form className="form success-form">

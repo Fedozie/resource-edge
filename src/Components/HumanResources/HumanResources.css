@@ -40,3 +40,18 @@
     box-shadow: -28px 46px 60px rgba(9, 30, 66, 0.08);
     background-size: contain;
 }
+
+@media only screen and (max-width: 26.5625rem){
+    .human-resources{
+        width: 100vw;
+        padding: 2rem;
+    }
+
+    .human-resources-text{
+        width: 100%;
+    }
+
+    .human-resources-details{
+        flex-direction: column;
+    }
+}

@@ -24,3 +24,19 @@
     width: 723.97px;
     height: 440.81px;
 }
+
+@media only screen and (max-width: 26.5625rem){
+    .homepage{
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .homepage-left, .homepage-left{
+        width: 100%;
+    }
+
+    .homepage-right-image{
+        width: 375px;
+        height: 301px;
+    }
+}
