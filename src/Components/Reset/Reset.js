@@ -8,17 +8,6 @@ import logoLogin from '../Assets/login-logo.svg';
 const Reset = () => {
     const link = '#';
 
-    const [emailValidation, setEmailValidation] = useState('');
-    const validateEmail = (e) => {
-        let address = e.target.value;
-
-        if(validator.isEmail(address)){
-            setEmailValidation(``)
-        }else{
-            setEmailValidation(``)
-        }
-    }
-
     return (
         <div className="authentication-bg reset">
              <div className = "authentication-logo">
