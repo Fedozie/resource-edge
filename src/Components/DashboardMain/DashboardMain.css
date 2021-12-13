@@ -67,5 +67,14 @@ main{
     border-radius: 4px;
     color: var(--login-grey);
     font-weight: 700;
-    
+}
+
+@media only screen and (max-width: 26.5625rem){
+    main{
+        padding: 7.5rem 3rem;
+    }
+
+    .dashboard-tab{
+        width: 100%;
+    }
 }

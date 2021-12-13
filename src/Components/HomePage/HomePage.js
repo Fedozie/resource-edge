@@ -21,7 +21,6 @@ const HomePage = () => {
                     <source srcset={mobileImage} media = "(max-width: 26.5625rem)"/>
                     <img src={mainPageImage} alt="Homepage JPEG" className="homepage-right-image"/>
                 </picture>
-                
             </div>
         </div>
     );

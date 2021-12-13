@@ -3,10 +3,11 @@ import {  NavLink } from "react-router-dom";
 import './Navbar.css';
 import logo from '../Assets/Logo.svg';
 import mobileLogo from '../Assets/logo-mobile.svg';
+import hamburgerIcon from '../Assets/menu-outline.svg';
+import crossIcon from '../Assets/cross.svg';
 
 //Component for the Navbar section of the Landing Page
-
-const Header = () => {
+const Navbar = () => {
     const link = '#';
 
     return (
@@ -34,4 +35,4 @@ const Header = () => {
     );
 }
  
-export default Header;
+export default Navbar;

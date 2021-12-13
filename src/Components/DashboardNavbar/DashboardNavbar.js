@@ -1,6 +1,7 @@
 import React from 'react';
 import './DashboardNavbar.css';
 import logo from '../Assets/dashboard-logo.svg';
+import mobileLogo from '../Assets/logo-mobile.svg';
 
 
 const DashboardNavbar = () => {
@@ -14,7 +15,11 @@ const DashboardNavbar = () => {
                         <span className = 'line3'></span>
                     </button>
                     <div className="logo">
-                        <img src={logo} alt="Logo of Resource Edge"/>
+                        <picture>
+                            <source media="(max-width: 26.5625rem)" srcset={mobileLogo}/>
+                            <img src={logo} alt="Logo of Resource Edge"/>
+                        </picture>
+                        
                     </div>
                     <div className="vr"></div>
                     <div className="role">

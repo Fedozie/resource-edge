@@ -1,7 +1,7 @@
 .section{
     padding: 7rem 7rem;
     background-color: var(--primary-white);
-    background-image: url(../Assets/rectangle-1.svg), url(../Assets/rectangle-2.svg), url(../Assets/rectangle-3.svg), url(../Assets/rectangle-4.svg), url(../Assets/rectangle-5.svg), url(../Assets/rectangle-6.svg);
+    background-image: url("../Assets/rectangle-1.svg"), url("../Assets/rectangle-2.svg"), url("../Assets/rectangle-3.svg"), url("../Assets/rectangle-4.svg"), url("../Assets/rectangle-5.svg"), url("../Assets/rectangle-6.svg");
     background-position: top 20% right, right center, right bottom 50%, left bottom, left -3% bottom -35%, left -11% bottom -40%;
     background-repeat: no-repeat;
 }
@@ -64,6 +64,8 @@
 @media only screen and (max-width: 26.5625rem){
     .section{
         padding: 2rem;
+        background-image: url("../Assets/rectangleMobile-1.svg"), url("../Assets/rectangleMobile-2.svg"), url("../Assets/rectangleMobile-6.svg"), url("../Assets/rectangleMobile-3.svg"), url("../Assets/rectangleMobile-4.svg"), url("../Assets/rectangleMobile-5.svg");
+        background-position: top right, top 23% right, top 10% right, left bottom 20%, left bottom 5%, left bottom 7%;
     }
 
     .section-main{

@@ -29,14 +29,26 @@
     .homepage{
         flex-direction: column;
         height: 100vh;
+        padding: 0 2rem;
     }
 
-    .homepage-left, .homepage-left{
+    .homepage-left, .homepage-right{
         width: 100%;
+    }
+
+    .homepage-left > p:first-of-type{
+        font-size: 32px;
+        line-height: 38px;
     }
 
     .homepage-right-image{
         width: 375px;
         height: 301px;
+    }
+}
+
+@media only screen and (max-width: 23.4375rem){
+    .homepage-right-image{
+        width: 325px;
     }
 }
